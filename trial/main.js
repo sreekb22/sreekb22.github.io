@@ -12,8 +12,8 @@ btn.addEventListener("click", function() {
     //  renderHTML(myData);
 
     } else {
-      var errorCode= myRequest.statusCode;      
-      alert("We connected to the server, but it returned an error." + errorCode);
+            
+      alert("We connected to the server, but it returned an error." + myRequest.statusText);
       
     }
 
