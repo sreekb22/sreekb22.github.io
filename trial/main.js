@@ -4,7 +4,7 @@ var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function() {
   var myRequest = new XMLHttpRequest();
-  myRequest.open('GET', 'sreelakshmi.me/tweet/sample.json');
+  myRequest.open('GET', 'https://api.jsonbin.io/b/5ef8bc0ebb5fbb1d25604f9b');
   myRequest.onload = function() {
     if (myRequest.status >= 200 && myRequest.status < 400) {
       alert("sucess");
